@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EF2D9620A9C86C61C69CBD /* Pods_iTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785EDD1C570F8DB4759BCF86 /* Pods_iTalk.framework */; };
+		5F828909203D8E9500D9746D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F828908203D8E9500D9746D /* Message.swift */; };
+		5F82890E203D8EBD00D9746D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82890A203D8EBD00D9746D /* ChatViewController.swift */; };
+		5F82890F203D8EBD00D9746D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82890B203D8EBD00D9746D /* WelcomeViewController.swift */; };
+		5F828910203D8EBD00D9746D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82890C203D8EBD00D9746D /* RegisterViewController.swift */; };
+		5F828911203D8EBD00D9746D /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F82890D203D8EBD00D9746D /* LogInViewController.swift */; };
+		5F828915203D8EDE00D9746D /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F828913203D8EDE00D9746D /* CustomMessageCell.xib */; };
+		5F828916203D8EDE00D9746D /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F828914203D8EDE00D9746D /* CustomMessageCell.swift */; };
+		5F828918203D90CE00D9746D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F828917203D90CE00D9746D /* Main.storyboard */; };
+		5FA7BB26203CBE690031AEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7BB25203CBE690031AEDE /* AppDelegate.swift */; };
+		5FA7BB28203CBE690031AEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7BB27203CBE690031AEDE /* ViewController.swift */; };
+		5FA7BB2D203CBE690031AEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7BB2C203CBE690031AEDE /* Assets.xcassets */; };
+		5FA7BB30203CBE690031AEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7BB2E203CBE690031AEDE /* LaunchScreen.storyboard */; };
+		5FA7BB3E203CBFA50031AEDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5FA7BB3D203CBFA50031AEDE /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F4A449EB6509788A617CE1A /* Pods-iTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTalk/Pods-iTalk.release.xcconfig"; sourceTree = "<group>"; };
+		5F828908203D8E9500D9746D /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		5F82890A203D8EBD00D9746D /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5F82890B203D8EBD00D9746D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5F82890C203D8EBD00D9746D /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5F82890D203D8EBD00D9746D /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5F828913203D8EDE00D9746D /* CustomMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
+		5F828914203D8EDE00D9746D /* CustomMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		5F828917203D90CE00D9746D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5FA7BB22203CBE690031AEDE /* iTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA7BB25203CBE690031AEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FA7BB27203CBE690031AEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FA7BB2C203CBE690031AEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FA7BB2F203CBE690031AEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FA7BB31203CBE690031AEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FA7BB3D203CBFA50031AEDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		718CC7D463E2BA30204CAAF8 /* Pods-iTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTalk/Pods-iTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		785EDD1C570F8DB4759BCF86 /* Pods_iTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FA7BB1F203CBE690031AEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EF2D9620A9C86C61C69CBD /* Pods_iTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FCA09A7503816021FCF1B10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				718CC7D463E2BA30204CAAF8 /* Pods-iTalk.debug.xcconfig */,
+				4F4A449EB6509788A617CE1A /* Pods-iTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53D520DF35A2CBAE38B60A46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				785EDD1C570F8DB4759BCF86 /* Pods_iTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F828912203D8EC900D9746D /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5F828914203D8EDE00D9746D /* CustomMessageCell.swift */,
+				5F828913203D8EDE00D9746D /* CustomMessageCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		5FA7BB19203CBE690031AEDE = {
+			isa = PBXGroup;
+			children = (
+				5FA7BB24203CBE690031AEDE /* iTalk */,
+				5FA7BB3C203CBE820031AEDE /* Support Files */,
+				5FA7BB23203CBE690031AEDE /* Products */,
+				4FCA09A7503816021FCF1B10 /* Pods */,
+				53D520DF35A2CBAE38B60A46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5FA7BB23203CBE690031AEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7BB22203CBE690031AEDE /* iTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FA7BB24203CBE690031AEDE /* iTalk */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7BB3B203CBE7F0031AEDE /* Model */,
+				5FA7BB3A203CBE7E0031AEDE /* View */,
+				5FA7BB39203CBE7B0031AEDE /* Controller */,
+				5FA7BB38203CBE7A0031AEDE /* Extensions */,
+				5FA7BB37203CBE770031AEDE /* Delegates */,
+			);
+			path = iTalk;
+			sourceTree = "<group>";
+		};
+		5FA7BB37203CBE770031AEDE /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5FA7BB38203CBE7A0031AEDE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5FA7BB39203CBE7B0031AEDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F82890A203D8EBD00D9746D /* ChatViewController.swift */,
+				5F82890D203D8EBD00D9746D /* LogInViewController.swift */,
+				5F82890C203D8EBD00D9746D /* RegisterViewController.swift */,
+				5F82890B203D8EBD00D9746D /* WelcomeViewController.swift */,
+				5FA7BB27203CBE690031AEDE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5FA7BB3A203CBE7E0031AEDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F828917203D90CE00D9746D /* Main.storyboard */,
+				5F828912203D8EC900D9746D /* Custom Cell */,
+				5FA7BB2E203CBE690031AEDE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FA7BB3B203CBE7F0031AEDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F828908203D8E9500D9746D /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FA7BB3C203CBE820031AEDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FA7BB25203CBE690031AEDE /* AppDelegate.swift */,
+				5FA7BB2C203CBE690031AEDE /* Assets.xcassets */,
+				5FA7BB31203CBE690031AEDE /* Info.plist */,
+				5FA7BB3D203CBFA50031AEDE /* GoogleService-Info.plist */,
+			);
+			name = "Support Files";
+			path = iTalk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FA7BB21203CBE690031AEDE /* iTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA7BB34203CBE690031AEDE /* Build configuration list for PBXNativeTarget "iTalk" */;
+			buildPhases = (
+				D8C5AD81702A184B67543F24 /* [CP] Check Pods Manifest.lock */,
+				5FA7BB1E203CBE690031AEDE /* Sources */,
+				5FA7BB1F203CBE690031AEDE /* Frameworks */,
+				5FA7BB20203CBE690031AEDE /* Resources */,
+				F5EBFA670C4D73562FE7D87F /* [CP] Embed Pods Frameworks */,
+				41C3B152BA129DF36F8377EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTalk;
+			productName = iTalk;
+			productReference = 5FA7BB22203CBE690031AEDE /* iTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FA7BB1A203CBE690031AEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ahmed Ramy";
+				TargetAttributes = {
+					5FA7BB21203CBE690031AEDE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5FA7BB1D203CBE690031AEDE /* Build configuration list for PBXProject "iTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FA7BB19203CBE690031AEDE;
+			productRefGroup = 5FA7BB23203CBE690031AEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FA7BB21203CBE690031AEDE /* iTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FA7BB20203CBE690031AEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F828915203D8EDE00D9746D /* CustomMessageCell.xib in Resources */,
+				5FA7BB30203CBE690031AEDE /* LaunchScreen.storyboard in Resources */,
+				5FA7BB3E203CBFA50031AEDE /* GoogleService-Info.plist in Resources */,
+				5F828918203D90CE00D9746D /* Main.storyboard in Resources */,
+				5FA7BB2D203CBE690031AEDE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C3B152BA129DF36F8377EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTalk/Pods-iTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C5AD81702A184B67543F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5EBFA670C4D73562FE7D87F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iTalk/Pods-iTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTalk/Pods-iTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FA7BB1E203CBE690031AEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F828909203D8E9500D9746D /* Message.swift in Sources */,
+				5F82890F203D8EBD00D9746D /* WelcomeViewController.swift in Sources */,
+				5F828916203D8EDE00D9746D /* CustomMessageCell.swift in Sources */,
+				5FA7BB28203CBE690031AEDE /* ViewController.swift in Sources */,
+				5F828911203D8EBD00D9746D /* LogInViewController.swift in Sources */,
+				5F828910203D8EBD00D9746D /* RegisterViewController.swift in Sources */,
+				5F82890E203D8EBD00D9746D /* ChatViewController.swift in Sources */,
+				5FA7BB26203CBE690031AEDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FA7BB2E203CBE690031AEDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FA7BB2F203CBE690031AEDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FA7BB32203CBE690031AEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FA7BB33203CBE690031AEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FA7BB35203CBE690031AEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718CC7D463E2BA30204CAAF8 /* Pods-iTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = iTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShaDiLiX.weTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FA7BB36203CBE690031AEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F4A449EB6509788A617CE1A /* Pods-iTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 969Y6REAB6;
+				INFOPLIST_FILE = iTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShaDiLiX.weTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FA7BB1D203CBE690031AEDE /* Build configuration list for PBXProject "iTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA7BB32203CBE690031AEDE /* Debug */,
+				5FA7BB33203CBE690031AEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA7BB34203CBE690031AEDE /* Build configuration list for PBXNativeTarget "iTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA7BB35203CBE690031AEDE /* Debug */,
+				5FA7BB36203CBE690031AEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FA7BB1A203CBE690031AEDE /* Project object */;
+}
